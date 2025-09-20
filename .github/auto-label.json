@@ -1,5 +1,5 @@
 ﻿{
-  "includeTitle": true,
+  "incluitdeTitle": true,
   "ignoreComments": true,
   "defaultLabels": ["triage"],
   "failoverLabels": ["need more information"],
