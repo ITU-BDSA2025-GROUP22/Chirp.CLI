@@ -1,0 +1,62 @@
+﻿{
+  "includeTitle": true,
+  "ignoreComments": true,
+  "defaultLabels": ["triage"],
+  "failoverLabels": ["need more information"],
+  "labelsSynonyms": {
+    "bug": [
+      "fejl", "fejler", "fejlkode", "virker ikke", "går ned", "crasher",
+      "nedbrud", "hængt", "låser", "kan ikke", "kan ikke starte",
+      "kan ikke logge ind", "kaster fejl", "undtagelse", "exception",
+      "afsporer", "defekt", "uventet adfærd", "forkert resultat",
+      "error", "bug", "crash", "crashes", "does not work", "not working",
+      "fails", "failure", "broken", "throws exception", "unexpected behavior",
+      "stack trace", "null reference", "NRE"
+    ],
+    "enhancement": [
+      "forbedring", "forbedre", "ønske", "feature", "funktion", "ny funktion",
+      "idé", "ide", "udvidelse", "tilføj", "tilføjelse", "support for",
+      "understøttelse", "opgradering", "opgrader", "opdatering", "optimering",
+      "enhancement", "improvement", "feature request", "feature", "add support",
+      "add", "upgrade", "update", "optimize", "optimization",
+      "ændret", "skiftet", "tilføjet", "ændres", "skiftes"
+    ],
+    "question": [
+      "spørgsmål", "hjælp", "hvordan", "hvorfor", "hvad betyder",
+      "kan jeg", "er det muligt", "vejledning", "guide",
+      "question", "help", "how to", "how do i", "why", "what does",
+      "is it possible", "can i", "guidance"
+    ],
+    "cli": [
+      "kommandolinje", "terminal", "kommando", "chirp cli",
+      "cli", "command line", "command", "chirp"
+    ],
+    "db": [
+      "database", "csv", "fil database", "simpledb",
+      "database", "csv", "simpledb", "data store"
+    ],
+    "tests": [
+      "test", "tests", "enhedstest", "integrationstest", "ende-til-ende",
+      "unit test", "unit tests", "integration test", "integration tests", "e2e"
+    ],
+    "priority-high": [
+      "høj prioritet", "kritisk", "akut", "haste", "p1",
+      "priority high", "high priority", "urgent", "critical", "p1"
+    ],
+    "priority-medium": [
+      "middel prioritet", "p2",
+      "priority medium", "medium priority", "p2"
+    ],
+    "priority-low": [
+      "lav prioritet", "nice to have", "p3",
+      "priority low", "low priority", "p3", "nice-to-have"
+    ]
+  },
+  "labelsNotAllowed": [
+    "documentation",
+    "duplicate",
+    "good first issue",
+    "help wanted",
+    "invalid"
+  ]
+}
